@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fineActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/imageSelect"
+        android:background="@drawable/ic_baseline_electric_car_24"
+        ></ImageView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/textDetect"
+        android:layout_below="@+id/imageSelect"
+        android:text="DETECTED TEXT"
+        android:textSize="28sp"
+        ></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCapture"
+        android:layout_below="@+id/textDetect"
+        android:layout_marginTop="10dp"
+        android:text="CAPTURE"
+        android:textSize="28sp"
+        android:background="@color/black"
+        >
+
+    </Button>
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnDetect"
+    android:layout_marginTop="10dp"
+    android:layout_below="@+id/btnCapture"
+    android:text="DETECT"
+    android:textSize="28sp"
+    android:background="@color/black"
+    >
+
+</Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnProceed"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btnDetect"
+        android:text="PROCEED"
+        android:textSize="28sp"
+        android:background="@color/black"
+        >
+
+    </Button>
+
+
+
+
+
+
+</RelativeLayout>
