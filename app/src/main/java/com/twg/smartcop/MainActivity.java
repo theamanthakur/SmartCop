@@ -15,7 +15,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class MainActivity extends AppCompatActivity {
-    Button btnComplaints,btnFIne,btnWmn;
+    Button btnComplaints,btnFIne,btnWmn, btnLoc;
     private static ViewPager mPager;
     private static int currentPage = 0;
     private static int NUM_PAGES = 0;
@@ -29,6 +29,13 @@ public class MainActivity extends AppCompatActivity {
         btnComplaints = (Button)findViewById(R.id.buttonComplnts);
         btnFIne = (Button)findViewById(R.id.buttonFine);
         btnWmn =  (Button)findViewById(R.id.buttonWomen);
+        btnLoc =  (Button)findViewById(R.id.buttonAdmin);
+        btnLoc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
         btnComplaints.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
